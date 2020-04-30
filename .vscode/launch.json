@@ -7,11 +7,20 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "启动程序",
+            "name": "合并两个有序链表",
+            "program": "${workspaceFolder}/合并两个有序链表#21.js",
+            "skipFiles": [
+                "<node_internals>/**"
+            ]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "最长回文子串",
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}\\合并两个有序链表#21.js"
+            "program": "${workspaceFolder}\\最长回文子串#5.js"
         }
     ]
 }
